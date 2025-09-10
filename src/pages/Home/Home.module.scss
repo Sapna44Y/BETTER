@@ -1,0 +1,156 @@
+
+.home {
+  overflow-x: hidden;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  min-height: 80vh;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.heroContent {
+  flex: 1;
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #666;
+  }
+}
+
+.heroButtons {
+  display: flex;
+  gap: 1rem;
+}
+
+.primaryButton {
+  background: #00D56F;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s;
+  
+  &:hover {
+    background: #00b85d;
+  }
+}
+
+.secondaryButton {
+  border: 2px solid #00D56F;
+  color: #00D56F;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s;
+  
+  &:hover {
+    background: #00D56F;
+    color: white;
+  }
+}
+
+.heroImage {
+  flex: 1;
+  
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+}
+
+.benefits {
+  padding: 4rem 2rem;
+  background: #f8f9fa;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.benefits h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.benefitsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.benefit {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  
+  h3 {
+    color: #00D56F;
+    margin-bottom: 1rem;
+  }
+}
+
+.ctaSection {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #00D56F;
+  color: white;
+  
+  h2 {
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+  }
+}
+
+.ctaButton {
+  background: white;
+  color: #00D56F;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s;
+  
+  &:hover {
+    background: #f0f0f0;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .heroContent h1 {
+    font-size: 2rem;
+  }
+  
+  .heroButtons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+

@@ -1,0 +1,92 @@
+.calculator {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  
+  label {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  input[type="range"] {
+    width: 100%;
+  }
+  
+  span {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  select {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+}
+
+.results {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.monthlyPayment {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #00D56F;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.breakdown {
+  margin: 2rem 0;
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+}
+
+.breakdownItem, .summaryItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  
+  span:first-child {
+    color: #666;
+  }
+  
+  span:last-child {
+    font-weight: 500;
+  }
+}
+
+.loanSummary {
+  margin-top: 2rem;
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+  
+  h4 {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+}
+
+@media (max-width: 768px) {
+  .calculator {
+    grid-template-columns: 1fr;
+  }
+}

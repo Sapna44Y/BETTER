@@ -1,13 +1,13 @@
-# React + Vite
+#Project Overview
+This project is a frontend recreation of the Better.com website, built with modern React and Vite. It demonstrates responsive web design, interactive components, and a clean, professional UI that closely matches the original Better.com platform.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#Features
+•Multi-page Application: Four main pages including Home, About Us, Mortgage Calculator, and Start Page
+•Responsive Design: Fully responsive layout that works seamlessly across desktop, tablet, and mobile devices
 
-Currently, two official plugins are available:
+•Interactive Components:
+  Functional mortgage calculator with real-time calculations
+  Multi-step application form 
+  Video testimonials with interactive controls
+  FAQ section with togglable answers
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# BETTER
